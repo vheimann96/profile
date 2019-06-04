@@ -1,0 +1,130 @@
+html {
+  background: url("images/marmor.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  font-size:35px;
+  color: #c297b8;
+}
+
+h2 {
+  font-size:25px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size:20px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+.header-pink {
+  color:#c297b8;
+  font-weight: bold;
+}
+
+.card-white {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 2px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+}
+
+.btn-blue {
+  background-color: #c297b8;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color;
+}
+
+.btn-blue:hover {
+  background-color: #b6719c;
+}
+
+.btn-light-pink{
+  background-color: #c297b8;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color;
+}
+
+.btn-light-pink:hover {
+  background-color: #b6719c;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.list-inline li a {
+  color: rgb(30,30,30);
+  font-size: 24px;
+  opacity: 0.5;
+  padding: 10px 15px;
+  background-color: rgba(150, 150, 150, 0.5);
+  border-radius: 5px;
+  border: 5px solid (100, 100, 100, 0.5);
+}
+
+.list-inline li a:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card-white {
+    padding: 20px;
+    width: 90%;
+  }
+}
